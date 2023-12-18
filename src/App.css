@@ -36,3 +36,71 @@ Header {
 .user i {
   font-size: 3rem;
 }
+
+/* ACCOUNT */
+
+.amount {
+  font-weight: 100;
+}
+
+section {
+  margin: 3rem 0 6rem 0;
+  position: relative;
+}
+
+.en-tete {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  color: #fefefe;
+  border-radius: 0.2rem;
+  font-size: 1.3rem;
+}
+
+ul {
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+li {
+  padding: 0.6rem 1.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+li > span {
+  font-weight: 600;
+}
+
+li:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+li:nth-child(even) {
+  background-color: #f6f7f8;
+}
+
+.operation {
+  display: flex;
+  width: 100%;
+  padding-left: 2rem;
+  justify-content: space-between;
+  color: rgb(97, 103, 103);
+}
+
+button {
+  position: absolute;
+  right: 1rem;
+  background-color: #f6f7f8;
+  border: none;
+  padding: 0.6rem;
+  font-size: 0.7rem;
+  color: #979797;
+  margin-top: 0.4rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
