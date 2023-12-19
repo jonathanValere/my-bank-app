@@ -52,5 +52,32 @@
         "amount": 1000
       }
     ]
+  },
+  {
+    "name": "Compte commun",
+    "balance": 2033.54,
+    "color": "#50875e",
+    "operations": [
+      {
+        "date": "20/07/2019",
+        "description": "SPOTIFY",
+        "amount": -9.99
+      },
+      {
+        "date": "18/07/2019",
+        "description": "CARREFOUR MARKET",
+        "amount": -23.56
+      },
+      {
+        "date": "18/07/2019",
+        "description": "DAB",
+        "amount": -50.0
+      },
+      {
+        "date": "16/07/2019",
+        "description": "SALAIRE",
+        "amount": 2183
+      }
+    ]
   }
 ]
